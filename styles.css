@@ -94,6 +94,34 @@ header {
     position: -webkit-sticky;
 }
 
-.row {
+#home-video {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+main {
+    margin-top: -160px;
+}
+.arrow-down {
+    font-size: 60px;
+    /*line-height: 1px;*/
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.col {
     border: 1px solid #6528e0;
+    background-color: lightgrey;
+    border-radius: 20px;
 }
