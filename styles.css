@@ -102,13 +102,13 @@ header {
     width: 100%;
     height: auto;
     position: relative;
-    margin-top: -20px;
+    margin-top: -80px;
     top: 0;
     left: 0;
     z-index: -1;
 }
 main {
-    margin-top: -160px;
+    margin-top: -140px;
 }
 .arrow-down {
     font-size: 60px;
