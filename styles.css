@@ -1,6 +1,5 @@
 /* Show it is fixed to the top */
 body {
-    min-height: 75rem;
     min-width: 1200px;
     padding-top: 4.5rem;
     color: white;
@@ -102,18 +101,20 @@ header {
     width: 100%;
     height: auto;
     position: relative;
-    margin-top: -80px;
+    margin-top: -74px;
     top: 0;
     left: 0;
     z-index: -1;
 }
 main {
-    margin-top: -140px;
+    margin-top: -130px;
 }
 .arrow-down {
-    font-size: 60px;
+    font-size: 40px;
+    margin-top: 30px;
     /*line-height: 1px;*/
     text-align: center;
+    color: red;
     background-color: transparent;
 }
 
@@ -137,4 +138,16 @@ main {
 
 small h1 h2 h3 h4 {
     color: white;
+}
+
+footer {
+    position: sticky;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: -2;
+}
+
+#footer-text {
+    text-align: center;
 }
