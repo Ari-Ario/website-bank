@@ -81,11 +81,13 @@ body {
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
+
 #logo {
     height: 40px;
     padding: 0 40px 0 0;
     margin: 0;
 }
+
 .nav-link {
     padding-top: 8px;
     color: white;
@@ -101,14 +103,16 @@ header {
     width: 100%;
     height: auto;
     position: relative;
-    margin-top: -74px;
+    margin-top: -86px;
     top: 0;
     left: 0;
     z-index: -1;
 }
+
 main {
     margin-top: -130px;
 }
+
 .arrow-down {
     font-size: 40px;
     margin-top: 30px;
@@ -125,10 +129,11 @@ main {
     left: 0;
     z-index: 1;
 }
+
 .container {
     background-color: darkred;
     /*border: 1px solid red;*/
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .col {
@@ -136,8 +141,15 @@ main {
     padding: 20px;
 }
 
-small h1 h2 h3 h4 {
+.btn {
+    color: darkred; 
+    background-color: antiquewhite ; 
+    border: 2px solid rgb(114, 66, 7);
+}
+
+h1, h2, h3, .icon-link {
     color: white;
+    text-decoration: none;
 }
 
 footer {
@@ -150,4 +162,5 @@ footer {
 
 #footer-text {
     text-align: center;
+    color: darkred;
 }
