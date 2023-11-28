@@ -162,10 +162,7 @@ footer {
     color: darkred;
 }
 
-
-
-
-
+/* styling only for popup window*/
 .popup {
     display: none;
     position: fixed;
@@ -187,10 +184,16 @@ footer {
     text-align: center;
 }
 
-.close {
+.closing {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 10px;
+    background-color: white;
+    color: darkred;
+    border: 1px solid rgb(114, 66, 7);
+    border-radius: 12px;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    padding: 0 12px;
+    margin-right: 26px;
     cursor: pointer;
 }
