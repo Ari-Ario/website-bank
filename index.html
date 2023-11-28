@@ -18,8 +18,7 @@
 
     <body> 
         <header>
-            
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="padding: 0; margin: 0;">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +44,8 @@
                 <li class="nav-item">
                   <button class="nav-link" onclick="openPopup()">Sign in</button>
                   <div id="popup" class="popup">
-                    <div class="modal-dialog" role="document" style="display: flex; justify-content: center; align-items: flex-end; z-index: -1; margin-bottom: 20px;">
-                      <div class="col-md-12 modal-content rounded-4 shadow" style=" max-width: 500px; background-color: darkred;">
+                    <div class="modal-dialog" role="document">
+                      <div class="col-md-12 modal-content rounded-4 shadow">
                         
                         <div class="modal-header p-5 pb-4 border-bottom-0">
                             <div class="closing"><span class="close" onclick="closePopup()">&times;</span></div>
@@ -73,8 +72,8 @@
                 </li>
             </ul>
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="padding-top: 0; padding-bottom: 0; border: 1px solid darkred;">
-                <button class="btn btn-outline-success" type="submit" style="background-color: darkred; color: white; border: 1px solid red; padding-top: 0; padding-bottom: 0;">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
             </div>
         </div>
@@ -86,13 +85,13 @@
         </video>
 
         <main>
-            <div class="arrow-down" style="margin-top: -110px;">&#9660;</div>
+            <div class="arrow-down">&#9660;</div>
             <br>
             <br>
 
               <div class="container px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                  <img src="photos/Nationalbank_Bern.jpg" alt="" style="width: 40%; height: 40%;">
+                  <img src="photos/Nationalbank_Bern.jpg" alt="" id="bank-img-1">
                   <div class="col-lg-6">
                     <h3 class="display-5 fw-bold lh-1 mb-3">National Bank of CH</h3>
                     <p class="lead">National banks play a crucial role in the financial systems of many countries, serving as key institutions that contribute to economic stability, growth, and the overall well-being of their respective nations. These banks are typically chartered or licensed by the national government and operate under its regulatory framework. Here are some key aspects and functions associated with national banks:</p>
@@ -114,7 +113,7 @@
                       <button type="button" class="btn btn-outline-secondary btn-lg px-4">More</button>
                     </div>
                   </div>
-                  <img src="photos/swiss-banking.jpg" alt="" style="width: 40%; height: 40%;">
+                  <img src="photos/swiss-banking.jpg" alt="" id="bank-img-2">
                 </div>
               </div>
 
@@ -215,7 +214,7 @@
               </div>
 
 
-        <footer class="footer mt-auto py-3 bg-body-tertiary" style="color: darkred;">
+        <footer class="footer mt-auto py-3 bg-body-tertiary">
         <div id="footer-text">
             <span> Sonnegstrasse 44, Bern 1234</span>
             <br>

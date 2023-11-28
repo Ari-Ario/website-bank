@@ -12,10 +12,8 @@
 
     <body>
       <header>
-        <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-        </div>
         
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="padding: 0; margin: 0;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,16 +38,16 @@
             </li>
         </ul>
         <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="padding-top: 0; padding-bottom: 0; border: 1px solid darkred;">
-            <button class="btn btn-outline-success" type="submit" style="background-color: darkred; color: white; border: 1px solid red; padding-top: 0; padding-bottom: 0;">Search</button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
         </div>
     </div>
     </nav>
     </header>
 
-        <div class="modal-dialog" role="document" style="display: flex; justify-content: center; align-items: center; z-index: -1; margin-bottom: 20px;">
-          <div class="col-md-12 modal-content rounded-4 shadow" style="display: flex; justify-content: center; align-items: center; max-width: 500px; background-color: darkred;">
+        <div class="modal-dialog" role="document">
+          <div class="col-md-12 modal-content rounded-4 shadow">
             <div class="modal-header p-5 pb-4 border-bottom-0">
               <h1 class="fw-bold mb-0 fs-2">Sign up</h1>
             </div>
@@ -58,14 +56,13 @@
               <form class="">
                 <div class="form-floating mb-3">
                   <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Email address</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
                   <label for="floatingPassword">Password</label>
                 </div>
                 <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
-                <p class="#text-body-secondary" style="color: white; font-size: 12px;"><strong>By clicking Sign up, you agree to the terms of use.</strong></p>
+                <p class="signup-p #text-body-secondary"><strong>By clicking Sign up, you agree to the terms of use.</strong></p>
                 <hr class="my-4">
                 <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
                 <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
