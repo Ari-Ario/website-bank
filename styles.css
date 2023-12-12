@@ -135,7 +135,8 @@ header {
 }
 
 .arrow-down {
-    margin-top: -70px;
+    margin-top: -98px;
+    margin-bottom: 50px;
     font-size: 40px;
     /*line-height: 1px;*/
     text-align: center;
@@ -269,4 +270,8 @@ footer {
 .signup-p {
     color: white; 
     font-size: 13px;
+}
+#address {
+    margin: 0;
+    padding: 0;
 }
