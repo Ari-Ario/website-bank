@@ -1,4 +1,11 @@
 /* Show it is fixed to the top */
+html {
+    transition: margin-top 6s;
+}
+
+html:hover {
+    margin-top: -968px;
+}
 body {
     padding-top: 4.5rem;
     color: white;
@@ -106,6 +113,7 @@ header {
     top: 0;
     left: 0;
     z-index: -1;
+
 }
 
 /* styling for index.html, contact.html, signup.html */
@@ -275,6 +283,8 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+  
 
 @media screen and (max-width: 768px) {
     #bank-img-1, #bank-img-2 {

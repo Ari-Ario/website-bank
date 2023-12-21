@@ -15,7 +15,7 @@ function closePopup() {
 
 
 function windowSize(){
-    if ( screen.width < 600) {     
+    if ( screen.width < 768) {
         //adding logo to mobile-screen
         const navigator= document.getElementById("cont-nav").firstElementChild;
         let logo = document.createElement("img");
