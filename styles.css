@@ -1,11 +1,12 @@
 /* Show it is fixed to the top */
-html {
+/* html {
     transition: margin-top 6s;
 }
 
-html:hover {
+html:click {
     margin-top: -968px;
-}
+} */
+
 body {
     padding-top: 4.5rem;
     color: white;
@@ -19,11 +20,6 @@ body {
     user-select: none;
 }
 
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
 
 .b-example-divider {
     width: 100%;
@@ -287,7 +283,21 @@ footer {
   
 
 @media screen and (max-width: 768px) {
+    
+    html {
+        transition: margin-top 6s;
+    }
+    
+    html:hover {
+        margin-top: -368px;
+    }
+
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
     #bank-img-1, #bank-img-2 {
         width: 100vw;
     }
 }
+
